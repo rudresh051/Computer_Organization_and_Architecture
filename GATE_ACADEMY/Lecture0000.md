@@ -53,3 +53,7 @@ Complete Syllabus can be divided into 2 parts
     * Write Through updating technique
     * Write back updating technique
   * Multilevel Cache
+
+## Instruction Cycle
+
+![alt text](image-2.png)
