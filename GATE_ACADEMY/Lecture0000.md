@@ -57,3 +57,23 @@ Complete Syllabus can be divided into 2 parts
 ## Instruction Cycle
 
 ![alt text](image-2.png)
+
+
+### Flag Register / PSW
+
+* This Register Consists of different flag bits/status bits
+  * Carry flag
+  * Parity flag
+  * Sign flag
+  * Zero flag
+  * Auxiliary Carry flag
+  * Overflow 
+  * Interrupt flag
+  * Direction flag
+  * Trap flag
+
+Flag bits are set or Reset based on output of ALU
+
+## Instruction set of Processor / ISA
+
+
