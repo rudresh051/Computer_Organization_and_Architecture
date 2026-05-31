@@ -76,4 +76,35 @@ Flag bits are set or Reset based on output of ALU
 
 ## Instruction set of Processor / ISA
 
+![alt text](image-3.png)
+
+* **Control Transfer Instruction**
+  * Unconditional Control transfer Operation
+  * Conditional Control tranfer operation
+
+## Subroutine
+
+## Interrupt
+
+Above 2 will depend on Control transfer operation
+
+
+## => 2nd component of computer i.e. (CPU)
+
+* Components of CPU
+  * Register
+  * ALU
+  * Control Unit
+    * It is used to generate control signals which are used to execute micro-operation
+    * Micro-operation - To execute one instruction we may need to execute multiple micro-instruction
+
+* Control unit Design
+  * Types of control unit
+    * Hardwired control unit
+    * Micro-programmed Control Unit(CU)
+      * Horizontally microprogrammed CU
+      * Vertically microprogrammed CU
+
+
+![alt text](image-4.png)
 
