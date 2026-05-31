@@ -150,3 +150,14 @@ Above 2 will depend on Control transfer operation
   * Programmed IO
 
 
+## Miscellaneous part
+* Booth's Algorithm
+* Reservation table
+* Refreshing of DRAM chip
+
+
+ऊपर हमने जमीन तैयार कर लिया , अब कल से ईंट से ईंट जोड़ेंगे।
+बाद में ऊपर वाले लेक्चर को 2x speed में देख लेना ।  
+
+
+
