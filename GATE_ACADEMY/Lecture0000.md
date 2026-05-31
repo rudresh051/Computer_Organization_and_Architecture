@@ -108,3 +108,45 @@ Above 2 will depend on Control transfer operation
 
 ![alt text](image-4.png)
 
+## => High Performance Computer Architecture
+
+* How to measure performance of a system
+  * Execution time
+  * Throughput
+
+* Execution time
+  * Basically It is the CPU time to execute any program
+  * How to compare performance of two system
+    * Using Speedup factor
+
+## Flynn's Classification of High Performance Computer Architecture
+1. SISD(Single Inst Single data)
+   1. Pipelining concept is used to improve the performance of SISD system
+2. SIMD(Single Inst Multiple data)
+3. MISD(Multiple Inst Multiple data)
+4. MIMD(Multiple Inst Multiple data)
+
+### Instruction Pipelining
+
+1. Designing & Working of Pipeline
+2. Different types of pipeline
+3. Performance measurement using pipeline & speed-up
+4. Dependencies in the Pipeline
+   1. Data Dependency
+   2. Structure Dependency (Resource Conflict)
+   3. Control Dependency
+   4. Pipeline Hazards
+      1. Read after write hazard(True-data dependency)
+      2. Write after read hazard(Anti-dependency)
+      3. Write after write hazard(Output dependency)
+
+
+## 3rd Component of Computer i.e. IO
+
+* Magnetic disk and its access time
+* IO interfaces
+  * Interrupt driven IO
+  * DMA
+  * Programmed IO
+
+
