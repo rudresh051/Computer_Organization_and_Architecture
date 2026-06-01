@@ -84,3 +84,14 @@ what is the size of cell? in the chip
 * **Word addressable Memory** : In word addressable memory each memory cell contains 1 word information
   * i.e. each address points to 1 word information
 
+> Old processors were 32 bit(4GB RAM)  
+> You don't ask what type of n-bit processing when adding a RAM
+
+* Note - Word size may be different for different processors, therefore word size is ambigious. Hence by default memory is Byte addressable
+
+![alt text](image-8.png)
+
+## System Bus
+
+* To Satisfy the objective of the computer i.e. the execution of program, the major components of the computer needs to communicate with each other
+  * For the communication there is a need of the communication medium. This communication medium is called as system bus
