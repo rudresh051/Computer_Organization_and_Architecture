@@ -68,3 +68,19 @@ Memory chip is divided into equal size partitions, each partition is called as a
   * Address {on which cell of memory we need to perform the operation}
   * Control signal {It defines that which memory operation needs to be performed}
 
+what is the size of cell? in the chip  
+
+### Byte Addressable memory & word addressable memory  
+
+* Byte size - 1 byte = 8 bit. It is fixed
+* Word size - word size is defined as number of bits processed by the processor at a time
+  * Word size varies from processor to processor
+
+
+![alt text](image-7.png)
+
+* **Byte addressable Memory** : In byte addressable memory each memory cell contains 1 Byte (i.e. 8 bit) information
+  * i.e. each address point to 8 bit information
+* **Word addressable Memory** : In word addressable memory each memory cell contains 1 word information
+  * i.e. each address points to 1 word information
+
