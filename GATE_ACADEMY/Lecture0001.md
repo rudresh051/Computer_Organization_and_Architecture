@@ -100,9 +100,9 @@ what is the size of cell? in the chip
 ![alt text](image-9.png)
 
 * System bus consists of three categories of lines
-  * 1. Address lines
-  * 2. Data lines
-  * 3. Control lines
+  * Address lines
+  * Data lines
+  * Control lines
 
 ![alt text](image-10.png)
 
@@ -112,10 +112,13 @@ what is the size of cell? in the chip
 
 ![alt text](image-11.png)
 
-? watch a video related to working of system bus to understnad CPU and memory addressing
+? watch a video related to working of system bus to understand CPU and memory addressing
 
 * Control lines - Control lines are used to carry the control signals and timing signals.
 
 control signals are used to specify the type of operation and timing signals are used to synchronize the memory and IO operations with the processor clock.  
 
 * Overall Control bus is bidirectional, but within the control bus every individual control line is unidirectional
+
+
+* Data Lines - Data lines are used to Carry the binary sequences between CPU, memory and IO devices, therefore data lines are bidirectional
