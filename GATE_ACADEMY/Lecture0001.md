@@ -122,3 +122,5 @@ control signals are used to specify the type of operation and timing signals are
 
 
 * Data Lines - Data lines are used to Carry the binary sequences between CPU, memory and IO devices, therefore data lines are bidirectional
+
+**Binary Sequences** can be - data, Instruction, Address
