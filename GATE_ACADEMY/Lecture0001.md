@@ -124,3 +124,13 @@ control signals are used to specify the type of operation and timing signals are
 * Data Lines - Data lines are used to Carry the binary sequences between CPU, memory and IO devices, therefore data lines are bidirectional
 
 **Binary Sequences** can be - data, Instruction, Address
+
+
+Question -  CPU कितना डेटा Demand करेगा  
+जितना वो Process कर सकता है ।  
+
+
+* Based on the number of data lines in the data bus we can determine the word size of that processor
+* Based on the word size performance of processor can be determined
+* 
+
