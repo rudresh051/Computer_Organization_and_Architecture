@@ -42,7 +42,16 @@ Little-endian mechanism is faster to operate
 Modern day system is Little-endian. So by default little-endian mechanism is used.
 
 
-Question - F3AC21B3  
+**Question** - F3AC21B3  
 
+Above is 32 bit data, represented in hexadecimal format  
 
+![alt text](image-16.png)
 
+Q. If the numerical value of 2 Byte unsignd integer on a little endian computer is 255 more than that on big-endian computer, which of the following choices represents the unsigned integer on a **little endian computer**(Multiple answer question)  
+
+options  
+a. Ox : 6665  
+b. Ox : 0001  
+c. Ox : 4243  
+d. Ox : 0100  
