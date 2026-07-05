@@ -39,6 +39,10 @@ so you need not to change the already stored bits
 And if you are using big-endian you needed to shift. It's only good for reading and if you want to increase the value using big-endian you need to shift all the previously stored bytes  
 
 Little-endian mechanism is faster to operate  
-Modern day system is Little-endian 
+Modern day system is Little-endian. So by default little-endian mechanism is used.
+
+
+Question - F3AC21B3  
+
 
 
