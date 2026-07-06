@@ -74,3 +74,14 @@ Concept Reference taken - Left shift operation and right shift
 * Value of big endian
 
 ![alt text](image-20.png)
+
+little endian = 255 + Big endian
+
+
+![alt text](image-21.png)
+
+![alt text](image-22.png)
+
+correct options - 
+
+![alt text](image-23.png)
