@@ -65,3 +65,12 @@ Concept Reference taken - Left shift operation and right shift
 
 
 ![alt text](image-18.png)
+
+
+* Value of below number 
+
+![alt text](image-19.png)
+
+* Value of big endian
+
+![alt text](image-20.png)
