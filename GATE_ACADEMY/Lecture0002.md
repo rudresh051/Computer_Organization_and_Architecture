@@ -55,3 +55,13 @@ a. Ox : 6665
 b. Ox : 0001  
 c. Ox : 4243  
 d. Ox : 0100  
+
+
+![alt text](image-17.png)
+
+Concept Reference taken - Left shift operation and right shift
+
+* 00000101 in this 101 is left shift by 8 bits. and value of 101 is 5. so left side value will be 5*2^8 = 1280  
+
+
+![alt text](image-18.png)
