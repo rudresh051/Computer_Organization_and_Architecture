@@ -85,3 +85,18 @@ little endian = 255 + Big endian
 correct options - 
 
 ![alt text](image-23.png)
+
+## Memory Chip Representation
+
+* Memory chip are represented using the format,
+  * No of cells * size of each cell(in bit)
+
+e.g. 64k * 8-bit memory
+
+where 64k - no of cells in memory = 64k = 2^16
+and size of each cell = 8 bit
+
+Note - A larger size memory can be designed using multiple smaller size memory chips  
+
+Question - How many memory chips of size 32*8 bit are needed to design a memory of size 128*8 bit and how are they connected
+
