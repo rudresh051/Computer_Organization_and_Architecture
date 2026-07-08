@@ -107,3 +107,5 @@ Question - How many memory chips of size 32x8 bit are needed to design a memory 
 ![alt text](image-26.png)
 
 ![alt text](image-27.png)
+
+![alt text](image-29.png)
