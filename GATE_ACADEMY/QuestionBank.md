@@ -87,4 +87,44 @@ The operating system uses **file locks** and synchronization mechanisms to preve
 
 > "When a process opens a file, it obtains a file handle with specific sharing permissions. If it requests exclusive access, the operating system blocks conflicting operations like rename or delete to prevent race conditions, maintain consistency, and avoid data corruption. The OS supports concurrent access, but only when the requested sharing modes are compatible."
 
-![alt text](image-27.png)
+
+
+---
+
+## Q: How many memory chips of size **32 × 8 bits** are required to design a **128 × 8-bit** memory? How are they connected?
+
+### Answer:
+
+A **32 × 8** memory chip provides **32 memory locations**, each storing **8 bits**.
+
+To build a **128 × 8** memory:
+
+* Required memory locations = **128**
+* Memory locations per chip = **32**
+
+Therefore,
+
+[
+\frac{128}{32} = 4 \text{ chips}
+]
+
+All chips share the **8-bit data bus**, **Read (RD)**, and **Write (WR)** control signals.
+
+The **lower 5 address bits** (`2⁵ = 32`) select a location **within a chip**, while the **upper 2 address bits** (`2² = 4`) are connected to a **2-to-4 decoder**, which generates the **Chip Select (CS)** signal to activate exactly **one** of the four memory chips.
+
+---
+
+### Interviewer's Follow-up: Why is a decoder required?
+
+**Answer:**
+
+A decoder ensures that **only one memory chip is active** for any given address. Without it, multiple chips could respond simultaneously, causing incorrect data to be read or written.
+
+---
+
+### 💡 One-line Interview Summary
+
+> **Memory expansion is achieved by increasing the number of memory chips, while a decoder uses the higher-order address bits to select the appropriate chip and the lower-order address bits select the location within that chip.**
+
+
+![alt text](image-28.png)
