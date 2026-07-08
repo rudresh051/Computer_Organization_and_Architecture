@@ -98,5 +98,10 @@ and size of each cell = 8 bit
 
 Note - A larger size memory can be designed using multiple smaller size memory chips  
 
-Question - How many memory chips of size 32*8 bit are needed to design a memory of size 128*8 bit and how are they connected
+Question - How many memory chips of size 32x8 bit are needed to design a memory of size 128x8 bit and how are they connected
 
+![alt text](image-24.png)
+
+![alt text](image-25.png)
+
+![alt text](image-26.png)
