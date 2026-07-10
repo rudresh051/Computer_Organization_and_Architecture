@@ -127,3 +127,5 @@ Note - If we want to design a memory of size MxN bit, using memory chips of size
 No. of memory chips of size PxQ required are  
 
 MxN bit / PxQ bit
+
+![alt text](image-32.png)
