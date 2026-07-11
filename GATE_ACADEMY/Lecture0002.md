@@ -129,3 +129,7 @@ No. of memory chips of size PxQ required are
 MxN bit / PxQ bit
 
 ![alt text](image-32.png)
+
+Size of Decoder will be -   
+
+![alt text](image-33.png)
