@@ -133,3 +133,9 @@ MxN bit / PxQ bit
 Size of Decoder will be -   
 
 ![alt text](image-33.png)
+
+## Few Spcial Purpose Registers
+
+1. **Program Counter** - It contains the address of the instruction which needs to be fetched and executed next.
+
+2. **Instruction Register** - 
