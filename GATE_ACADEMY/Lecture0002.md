@@ -134,8 +134,40 @@ Size of Decoder will be -
 
 ![alt text](image-33.png)
 
-## Few Spcial Purpose Registers
+## Few Special Purpose Registers
 
-1. **Program Counter** - It contains the address of the instruction which needs to be fetched and executed next.
+1. **Program Counter** (PC) - It contains the address of the instruction which needs to be fetched and executed next.
 
-2. **Instruction Register** - 
+2. **Instruction Register** (IR- It is used to store the instruction which is to be executed.  
+
+Instruction format is a pre-defined only in instruction register
+
+3. **Accumulator Register**(ACC) - Accumulator register is used to store the output of ALU
+
+4. **Stack pointer Register** (SP) - This register is used to store the address of "top" of memory stack of the process
+
+5. Memory Address Register(MAR)
+6. Memory Data Register(MDR/Memory Buffer Register(MBR)
+
+## Control Transfer Operations
+
+* Because of execution of control transfer operation program execution control can be tranferred from current address to target address
+* In general control transfer operation can be classified into two types
+  * Unconditional control transfer operation
+  * Conditional control transfer operation
+
+1. **Unconditional control transfer operation**
+
+Because of execution of this type of operation program control is transferred from current address to target adddress without checking any condition
+
+e.g. JMP (2000)
+
+Because of execution of this instruction next instruction will be "Fetched and executed" from address = 2000
+
+2. **Conditional Control tranfer operation**
+
+This type of operation are associated with a condition during the execution of this instruction the associated condition undergoes evaluation, if condtion is evaluated as true then only the program control is tranferred to the target address otherwise no change
+
+e.g JNZ (2000)
+
+associated condition is not zero condition
