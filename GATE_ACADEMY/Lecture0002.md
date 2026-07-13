@@ -173,3 +173,10 @@ e.g JNZ R0 (2000)
 associated condition is not zero condition
 
 ![alt text](image-34.png)
+
+* Instruction set of a computer is the set of all insturction supported by that processor
+  * **RISC** - Reduced instruction set computer
+    * Very few instruction and very simple instruction
+  * **CISC** - Complex instruction set computer
+    * Large number of instructions and complex type of instruction
+
