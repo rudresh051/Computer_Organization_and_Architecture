@@ -149,7 +149,7 @@ Instruction format is a pre-defined only in instruction register
 5. Memory Address Register(MAR)
 6. Memory Data Register(MDR/Memory Buffer Register(MBR)
 
-## Control Transfer Operations
+## Control Transfer Operations/Branch Instruction
 
 * Because of execution of control transfer operation program execution control can be tranferred from current address to target address
 * In general control transfer operation can be classified into two types
@@ -168,6 +168,8 @@ Because of execution of this instruction next instruction will be "Fetched and e
 
 This type of operation are associated with a condition during the execution of this instruction the associated condition undergoes evaluation, if condtion is evaluated as true then only the program control is tranferred to the target address otherwise no change
 
-e.g JNZ (2000)
+e.g JNZ R0 (2000)
 
 associated condition is not zero condition
+
+![alt text](image-34.png)
