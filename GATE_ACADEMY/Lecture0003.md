@@ -24,3 +24,5 @@ By the end of instruction fetch PC register value is incremental by "step-size" 
 * If processor supports fixed length instruction then step-size will be fixed, and if processor supports variable length instruction then step size may vary
 
 * PC = PC + Step size - Because of instruction fetch
+
+* Initially when program execution starts we will load the PC register with the starting address of the program in memory, and then PC value will be incremental automatically as program execution proceeds
