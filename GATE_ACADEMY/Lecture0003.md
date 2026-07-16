@@ -28,3 +28,7 @@ By the end of instruction fetch PC register value is incremental by "step-size" 
 * Initially when program execution starts we will load the PC register with the starting address of the program in memory, and then PC value will be incremental automatically as program execution proceeds
 
 ![alt text](image-37.png)
+
+1. What value will be present in the PC register during the execution of instruction I5
+
+![alt text](image-38.png)
