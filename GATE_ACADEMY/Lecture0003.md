@@ -37,3 +37,9 @@ By the end of instruction fetch PC register value is incremental by "step-size" 
 
 Note - Currently fetched instruction which needs to be executed by CPU is placed in Instruction Register (IR) of CPU  
 
+2. Execute Sub-cycle
+
+This sub-cycle of instruction cycle describes that how currently fetched instruction which is present in IR of CPU will undergo processing
+
+Execute sub-cycle will consist of number of steps in it.
+
