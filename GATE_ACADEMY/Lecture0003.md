@@ -32,3 +32,8 @@ By the end of instruction fetch PC register value is incremental by "step-size" 
 1. What value will be present in the PC register during the execution of instruction I5
 
 ![alt text](image-38.png)
+
+![alt text](image-39.png)
+
+Note - Currently fetched instruction which needs to be executed by CPU is placed in Instruction Register (IR) of CPU  
+
