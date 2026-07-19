@@ -45,6 +45,9 @@ Execute sub-cycle will consist of number of steps in it.
 
 * Information in the instruction is available in encoded format, therefore we need to decode the encoded information
 
-* Execute sub-cycle will consist of following steps
-  * Instruction decoding
-  * 
+* **Execute sub-cycle** will consist of following steps
+  * Instruction decoding  
+  Before we fetch the operands we need to identify the addresses at which operands are available
+  * Operand fetch
+  * Perform operation
+  * Store Result
