@@ -173,3 +173,19 @@ need to move the tape head left, or right, and update the symbol and state based
 
 ![alt text](image-16.png)
 
+![alt text](image-17.png)
+
+## Computer Inspired from the Turing Machine
+
+![alt text](image-18.png)
+
+## Elements of a Computer
+
+![alt text](image-19.png)
+
+## Let us now design an ISA
+
+* Single Instruction ISA
+  * sbn - subtract and branch if negative
+* Add (a+b) (assume temp = 0)
+
