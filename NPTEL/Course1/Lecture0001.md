@@ -92,3 +92,84 @@ billions of instructions per second.
 * The **compiler** transforms a user program written in a high level language such as C to a program consisting of basic machine instructions.
 * The **instruction set architecture(ISA**) refers to the semantics of all the instructions supported by a processor.
 * The instruction set needs to be **complete**. It is desirable if it is also **concise**, **generic**, and **simple**.
+
+## Outline
+
+![alt text](image-10.png)
+
+## Completeness of an ISA
+
+* **How can we ensure that an ISA is complete?**
+
+* Complete means :
+  * Can implement all types of programs
+  * For example, if we just have **add** instructions, we cannot subtract(**NOT Complete**)
+
+a + b = a - (0-b)
+
+## Completeness of an ISA - 2
+
+How to ensure that we have just enough
+instructions such that we can implement every
+possible program that we might want to write ?
+
+Skip this part(Optional)
+
+* Answer
+
+![alt text](image-11.png)
+
+## The Turing Machine - Alan Turing
+
+* Facts about Alan Turing
+  * Known as the father of computer science
+  * Discovered the Turing machine that is the most powerful computing device known to man
+  * Indian connection : His father worked with the Indian Civil Service at the time he was born. He was posted in Chhatrapur, Odisha.
+
+* **Turing Machine**
+
+![alt text](image-12.png)
+
+### Operation of a Turing Machine
+
+* There is an inifinite tape that extends to the left and right. It consists of an infinite number of cells.
+* The tape head points to a cell, and can either move 1 cell to the left or right
+* Based on the symbol in the cell, and its current state, the Turing machine computes the transition :
+  * Computes the next state
+  * Overwrites the symbol in the cell (or keeps it the same)
+  * Moves to the left or right by 1 cell
+* The action table records the rules for the transitions.
+
+### Example of a Turing Machine
+
+![alt text](image-13.png)
+
+=> More about the Turing Machine
+
+* This machine is extremely simple, and extremely
+powerful
+  * We can solve all kinds of problems - mathematical problems, engineering analyses, protein folding, computer games, ...
+  * Try to use the Turing machine to solve many more types of problems (**TODO**)
+
+Book on Automata theory or theoritical computer science.
+
+## Church-Turing Thesis
+
+![alt text](image-14.png)
+
+**Definition** - Any computing system that is equivalent to a Turing machine is said to be Turing complete.
+
+## Universal Turing Machine
+
+* For every problem in the world, we can design a Turing Machine (Church-Turing thesis)
+* Can we design a universal Turing machine that can simulate any Turing machine. This will make it a **universal machine (UTM)**
+* Why not? The logic of a Turing machine is really simple. We
+need to move the tape head left, or right, and update the symbol and state based on the action table. **A UTM can easily do this.**
+* A UTM needs to have an action table, state register, and tape that can simulate any arbitrary Turing machine.
+
+![alt text](image-15.png)
+
+=> How does A Universal Turing Machine work?
+
+![alt text](image-16.png)
+
