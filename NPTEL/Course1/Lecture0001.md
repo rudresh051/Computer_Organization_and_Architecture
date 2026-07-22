@@ -189,3 +189,9 @@ need to move the tape head left, or right, and update the symbol and state based
   * sbn - subtract and branch if negative
 * Add (a+b) (assume temp = 0)
 
+1 : sbn temp, b, 2  
+2 : sbn a, temp, exit  
+
+## Single Instructions ISA - 2
+
+![alt text](image-20.png)
