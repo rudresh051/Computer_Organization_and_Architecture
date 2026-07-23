@@ -218,3 +218,6 @@ need to move the tape head left, or right, and update the symbol and state based
 
 ![alt text](image-22.png)
 
+## Problems with Harvard/Von-Neumann Architectures
+
+![alt text](image-23.png)
