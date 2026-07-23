@@ -195,3 +195,14 @@ need to move the tape head left, or right, and update the symbol and state based
 ## Single Instructions ISA - 2
 
 ![alt text](image-20.png)
+
+## Multiple Instruction ISA
+
+* Arithmetic Instructions
+  * add, subtract, multiply, divide
+* Logical Instructions
+  * or, and, not
+* Move instructions
+  * Transfer values between memory locations
+* Branch instructions
+  * Move to a new program location, based on the values of some memory locations
