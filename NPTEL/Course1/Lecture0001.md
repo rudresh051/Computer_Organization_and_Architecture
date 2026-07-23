@@ -208,3 +208,13 @@ need to move the tape head left, or right, and update the symbol and state based
   * Move to a new program location, based on the values of some memory locations
 
 
+## Designing Practical Machines
+
+* Harvard Architecture
+
+![alt text](image-21.png)
+
+* Von-Neumann Architecture
+
+![alt text](image-22.png)
+
