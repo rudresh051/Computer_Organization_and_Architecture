@@ -221,3 +221,14 @@ need to move the tape head left, or right, and update the symbol and state based
 ## Problems with Harvard/Von-Neumann Architectures
 
 ![alt text](image-23.png)
+
+## Uses of Registers
+
+* A CPU (Processor) contains set of registers (16-64)
+* These are named storage locations.
+* Typically values are loaded from memory to registers.
+* Arithmetic/logical instructions use registers as input
+operands
+* Finally, data is stored back into their memory locations.
+
+![alt text](image-24.png)
