@@ -232,3 +232,29 @@ operands
 * Finally, data is stored back into their memory locations.
 
 ![alt text](image-24.png)
+
+## Machine with Registers
+
+![alt text](image-25.png)
+
+## Where are we
+
+![alt text](image-26.png)
+
+## Instruction set Architecture
+
+* Interface between software and hardware
+  * A compiler converts a program into machine instructions in the
+given ISA
+  * The processor executes the instructions in the ISA
+* We shall first look at the software aspect of the ISA
+(assembly programs)
+* Then look at implementing the ISA by designing the
+processor
+* Then, we shall make the computer more efficient by
+designing fast memory/ storage systems
+* At the end, we will look at multiprocessors
+
+## Roadmap of the course
+
+![alt text](image-27.png)
