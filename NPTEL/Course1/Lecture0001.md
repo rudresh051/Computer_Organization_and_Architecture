@@ -258,3 +258,4 @@ designing fast memory/ storage systems
 ## Roadmap of the course
 
 ![alt text](image-27.png)
+
