@@ -19,3 +19,8 @@ Strings
 * kiloByte - 1024 bytes
 * megaByte - 10^6 bytes
 
+## Review of Logical Operations
+
+![alt text](image-28.png)
+
+![alt text](image-29.png)
